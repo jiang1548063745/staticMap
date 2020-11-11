@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <CoordPickerup />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import CoordPickerup from './components/CoordPickeup'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
+    CoordPickerup
   }
 }
 </script>
