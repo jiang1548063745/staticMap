@@ -77,7 +77,7 @@ export default {
             source: new Static({
               imageExtent: extent,
               projection: this.map.projection,
-              url: 'staticMap.jpg'
+              url: 'staticMap.svg'
             })
           })
         ],
